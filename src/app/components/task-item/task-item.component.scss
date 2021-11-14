@@ -1,0 +1,17 @@
+.task-item {
+  border: 1px solid #e4e4e4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: #4a90ff;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .reminder {
+    border-left: 2px solid red;
+    padding: 0.5rem;
+  }
+}
